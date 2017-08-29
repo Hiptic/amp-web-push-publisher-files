@@ -1,0 +1,1 @@
+import './amp-web-push-helper-frame';

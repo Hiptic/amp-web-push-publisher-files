@@ -1,0 +1,20 @@
+{
+  "name": "amp-web-push-publisher-files",
+  "version": "1.0.0",
+  "main": "entry.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@types/core-js": "^0.9.43",
+    "@types/node": "^8.0.25",
+    "tslib": "^1.7.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.5"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --watch",
+    "dist": "webpack --config webpack.config.js && cp ./dist/amp-http-helper-frame.js ~/code/OneSignal/public/sdks/amp-http-helper-frame.js && cp ./dist/amp-http-helper-frame.js.map ~/code/OneSignal/public/sdks/amp-http-helper-frame.js.map && cp ./dist/amp-http-remote-frame.js ~/code/OneSignal/public/sdks/amp-http-remote-frame.js && cp ./dist/amp-http-remote-frame.js.map ~/code/OneSignal/public/sdks/amp-http-remote-frame.js.map"
+  }
+}

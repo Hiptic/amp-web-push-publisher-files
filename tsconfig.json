@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": [
+      "es5",
+      "es2015.promise",
+      "es2015.collection",
+      "dom",
+      "scripthost"
+    ],
+    "target": "es5",
+    "sourceRoot": "src",
+    "outDir": "build"
+  },
+  "include": [
+    "src/**/*",
+    "typings/**/*"
+  ],
+  "exclude": [
+    "dist/**/*"
+  ]
+}

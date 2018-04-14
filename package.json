@@ -15,6 +15,6 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.js --watch",
-    "dist": "webpack --config webpack.config.js && cp ./dist/amp-http-helper-frame.js ~/code/OneSignal/public/sdks/amp-http-helper-frame.js && cp ./dist/amp-http-helper-frame.js.map ~/code/OneSignal/public/sdks/amp-http-helper-frame.js.map && cp ./dist/amp-http-remote-frame.js ~/code/OneSignal/public/sdks/amp-http-remote-frame.js && cp ./dist/amp-http-remote-frame.js.map ~/code/OneSignal/public/sdks/amp-http-remote-frame.js.map"
+    "dist": "webpack --config webpack.config.js && cp ./dist/amp-http-helper-frame.js ../OneSignal/public/sdks/amp-http-helper-frame.js && cp ./dist/amp-http-helper-frame.js.map ../OneSignal/public/sdks/amp-http-helper-frame.js.map && cp ./dist/amp-http-remote-frame.js ../OneSignal/public/sdks/amp-http-remote-frame.js && cp ./dist/amp-http-remote-frame.js.map ../OneSignal/public/sdks/amp-http-remote-frame.js.map"
   }
 }
